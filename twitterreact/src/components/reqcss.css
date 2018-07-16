@@ -1,0 +1,205 @@
+.logo{
+width:379px;
+height:60px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:26px;
+position: relative;
+-moz-box-shadow: 0 14px 10px -12px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0 14px 10px -12px rgba(0,0,0,0.7);
+box-shadow: 0 14px 10px -12px rgba(0,0,0,0.7);
+}
+.search{
+padding: 1px 5px 2px 0;
+margin-bottom:20px;
+width:240px;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.tabHeader{
+background-color: #F2F2F2;
+border-top: solid 1px #E2E2E2;
+padding: 4px 5px 5px;
+margin-top:15px;
+margin-bottom:10px;
+}
+.profileimage{
+float:left;
+margin-right: 5px;
+border-radius: 50%;
+height:250px;
+width:250px
+}
+
+a{
+cursor: pointer;
+color: #3B5998;
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+strong{
+font-weight:bold;
+}
+em{
+font-style:italic;
+}
+h3{
+font-size: 16px;
+font-weight:bold;
+line-height: 1.1em;
+margin-bottom:5px;
+}
+.postInfo{
+display:block; /* Spans are inline element so needs to be changed to block in order for the margin to work */
+color:#808080;
+margin-top:5px;
+margin-bottom:10px;
+}
+.ps{
+font-size: 12px;
+line-height: 1.5em;
+margin-bottom:18px;
+}
+.line{
+display:block;
+width:100%;
+height:1px;
+background-color:#ccc;
+margin-top:5px;
+}
+.more{
+color:#3B5998;
+font-weight:bold;
+
+}
+.likesCount{
+font-size:16px;
+font-weight:bold;
+}
+
+.header{
+  width:100vw;
+  color:#fff;
+  padding:10px;
+  background: #1c94e0;
+  color:#fff;
+}
+.container{
+  position: absolute;
+  right:9vw;
+  top:18px;
+  font-size: 13px;
+  margin-right:600px;
+}
+label{
+  color:#66757f;
+  font-size: 14px;
+}
+.login_text{
+  font-weight: bold;
+}
+.loginForm{
+  display: none;
+  padding:15px;
+  position: absolute;
+  top:50px;
+  right:9vw;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  border-radius:4px;
+  background:#fff;
+  width:230px;
+  color:#000;
+  font-size: 12px;
+}
+
+input{
+  display: block;
+}
+input::placeholder{
+  color:#aab8c2;
+  font-size: inherit;
+}
+.loginForm input[type=text],.loginForm input[type=password]{
+  padding:8px 5px;
+  margin-top:10px;
+  border:1px solid #e6ecf0;
+  border-radius:3px;
+  width:220px;
+}
+.loginForm input[type=text]:focus,input[type=password]:focus{
+    outline:1px solid #1c94e0;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.login{
+  width:100%;
+  padding:6px 16px;
+  background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    margin-top:10px;
+    font-size: 14px;
+    border-radius:20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.login:hover{
+    background: #006dbf;
+}
+.register{
+  width:100%;
+  padding:6px 16px;
+  background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    font-size: 14px;
+    border-radius:20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.register:hover{
+    background:#eaf5fd;
+}
+.register2{
+  width:100%;
+  padding:12px 20px;
+  background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    margin-top:20px;
+    font-size: 18px;
+    border-radius:20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.register2:hover{
+    background: #006dbf;
+}
+hr.hr{
+  border:0px;
+  height: 1px;
+    background: #cecece;
+}
+.signupContainer{
+  width:392px;
+  padding:20px;
+  margin:80px auto;
+}
+.signupContainer input[type=text],.signupContainer input[type=password]{
+  font-size: 18px;
+  margin-top:20px;
+    font-weight: bold;
+    padding: 12px;
+    width: 372px;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+}

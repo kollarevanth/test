@@ -1,0 +1,25 @@
+
+
+def get(li,n,m):
+    g=0
+    max='0'
+    for i in range(0,m):
+        if(len(li[i])>0 and max<(li[i][len(li[i])-1])):
+            max=li[i][len(li[i])-1]
+            g=i
+    if(len(li[g])>0):
+        x=li[g].pop()
+    return max
+
+
+
+m=int(input())
+n=int(input())
+li=[]
+for i in range(0,m):
+    x=int(input())
+    li.append(list(str(x)))
+ans=[]
+for x in range(0,n*m):
+    ans.append(get(li,n,m))
+print(''.join(ans))
