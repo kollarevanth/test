@@ -25,7 +25,7 @@ SECRET_KEY = 'yahxz%*_-%!cl)=l(9b12s46h-e)#x$a=j@%!6ku=aew0-f0nh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['twitter.herokuapp.com']
 
 
 # Application definition
@@ -154,3 +154,7 @@ USE_TZ = True
 
 STATIC_URL = '/twitterreact/public/images/'
 MEDIA_URL='/twitterreact/public/image/'
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
