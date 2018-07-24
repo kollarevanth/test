@@ -1,1 +1,2 @@
-"web: gunicorn twitterreact.wsgi"
+release: python manage.py migrate
+web: gunicorn twitterreact.wsgi
