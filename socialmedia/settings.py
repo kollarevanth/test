@@ -25,7 +25,7 @@ SECRET_KEY = 'yahxz%*_-%!cl)=l(9b12s46h-e)#x$a=j@%!6ku=aew0-f0nh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['twitter.herokuapp.com','127.0.0.1:8000','127.0.0.1' ]
+ALLOWED_HOSTS = ['twitterreact-.herokuapp.com','127.0.0.1:8000','127.0.0.1' ]
 
 
 # Application definition
@@ -109,13 +109,19 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'socialmedia',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'HOST': 'localhost',
         'USER':"root",
         'PASSWORD': ""
     }
 }
-
+n='''DATABASES['default'] = {
+    'ENGINE': 'django.db.backends.mysql',
+    'HOST': 'my-host-goes-here',
+    'USER': 'my-user-goes-here',
+    'NAME': 'my-db-name-goes-here',
+    'PASSWORD': 'my-db-pass-goes-here',
+    'OPTIONS': {'ssl': {'ca':'/path/to/ca-cert.pem', 'cert':'/path/to/cert.pem', 'key':'/path/to/key.pem'},},
+}'''
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
