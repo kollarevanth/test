@@ -35,7 +35,7 @@ render()
     <React.Fragment>
     <Router>
     <div>
-    <Route exact path="/login" component={login}/>
+    <Route exact path="/" component={login}/>
     <Route exact path="/addpost/:tokens" component={addpost}/>
     <Route exact path="/post/:tokens" render={props=><PostsComponent{...props} token={this.state.token}/>}/>
     <Route exact path="/timeline/:tokens" component={timeline}/>
