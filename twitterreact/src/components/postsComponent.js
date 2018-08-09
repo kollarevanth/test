@@ -236,8 +236,8 @@ render()
                     {this.state.posts.map(item => (
                        <div class="postinfo" align="center">
                             {item.name+":posted in this timeline"}
-                            <td ><img class="postinfo" src={"/static/bundles"+"/"+item.post.split("/").slice(8,).join('/')} height="502" width="502"/></td><br/>
-                            {console.log("/static/bundles"+"/"+item.post.split("/").slice(8,).join('/'))}
+                            <td ><img class="postinfo" src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')} height="502" width="502"/></td><br/>
+                            {console.log("/static/bundles"+"/"+item.post.split("/").slice(10,).join('/'))}
                             <td><div id={'li'+item.id}>{item.likes}</div></td>
                             <td>likes</td>
                             <td> </td><br/>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c99939b3-d054-40e5-b381-2d401808d208" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterreact/src/components/postsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/postsComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +80,8 @@
       <file leaf-file-name="postsComponent.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="234" column="116" selection-start-line="234" selection-start-column="116" selection-end-line="234" selection-end-column="116" />
+            <state relative-caret-position="221">
+              <caret line="239" column="105" selection-start-line="239" selection-start-column="105" selection-end-line="239" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -308,7 +309,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.14805023" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
@@ -679,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="234" column="116" selection-start-line="234" selection-start-column="116" selection-end-line="234" selection-end-column="116" />
+        <state relative-caret-position="221">
+          <caret line="239" column="105" selection-start-line="239" selection-start-column="105" selection-end-line="239" selection-end-column="105" />
         </state>
       </provider>
     </entry>
