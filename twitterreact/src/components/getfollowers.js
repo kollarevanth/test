@@ -55,7 +55,7 @@ render()
                        <div>
 
                         <tr key={item.id}>
-                            <td align="centre"><img src={process.env.PUBLIC_URL+"/"+item.pic.split("/").slice(8,).join('/')} height="80" width="80"/></td>
+                            <td align="centre"><img src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')} height="80" width="80"/></td>
                             <td>{item.name}</td>
                             <td><button onClick={()=>this.showProfile(item.id)}>ShowProfile</button></td>
                          </tr>

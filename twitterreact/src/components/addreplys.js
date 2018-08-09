@@ -68,7 +68,7 @@ class addreply extends Component
                        <div>
 
                         <tr key={item.id}>
-                            <td align="centre"><img src={process.env.PUBLIC_URL+"/"+item.post.split("/").slice(8,).join('/')} height="502" width="502"/></td>
+                            <td align="centre"><img src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')} height="502" width="502"/></td>
                          </tr>
                          <tr>
                             <td>{this.state.comments.comment}</td>

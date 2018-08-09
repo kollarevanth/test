@@ -15,7 +15,7 @@ class Posts(models.Model):
 class Profilepics(models.Model):
     user=models.ForeignKey(User,on_delete=models.CASCADE)
     name=models.CharField(max_length=100)
-    pic=models.FileField(upload_to='./test/staticfiles/bundles/images/%m/%d')
+    pic=models.FileField(upload_to='./test/staticfiles/bundlesc/images/%m/%d')
 
 
 class Comments(models.Model):

@@ -225,7 +225,7 @@ render()
                 <Link class="more" to={"/getfollowers/"+this.props.match.params.tokens}>YOUR Followers List</Link><br/>
 
                 {this.state.pic.map(item => (
-                <img class="profileimage" src={process.env.PUBLIC_URL+"/"+item.pic.split("/").slice(8,).join('/')} height="502" width="502"/>))
+                <img class="profileimage" src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')} height="502" width="502"/>))
                 }
                 <br/><br/><br/><br/><br/>
                 <button class="more" id="follow" onClick={()=>this.addFollowing()}>FOLLOW</button>
@@ -233,12 +233,12 @@ render()
                 {this.state.posts.map(item => (
                        <div class="postinfo" align="center">
                        {item.name+":posted in this timeline"}
-                            <td ><img class="postinfo" src={process.env.PUBLIC_URL+"/"+item.post.split("/").slice(8,).join('/')} height="502" width="502"/></td><br/>
+                            <td ><img class="postinfo" src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')} height="502" width="502"/></td><br/>
                          <td><div id={'li'+item.id}>{item.likes}</div></td>
                             <td>likes</td>
                             <td> </td><br/>
                             <td><button class="more" id={'l'+item.id} onClick={()=>this.likeFunction(item.id)} >Like</button></td>
-                        <td><button class="more" onClick={() => this.clickFunction(item.id)}>comment</button></td>
+                        <td><button class="more" onClick={() => this.clickFunction(item.id)}>Viewcomments</button></td>
                         <td><button class="more" onClick={() => this.shareFunction(item.post.substr(48))}>share</button></td>
 
                             <td><button class="more"><Link to={"/addcomments/"+item.id+'/'+this.props.match.params.tokens}>addComment</Link></button></td><br/>
