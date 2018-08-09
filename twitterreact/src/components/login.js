@@ -36,7 +36,7 @@ class LoginBut extends Component{
             "username":"`+username+`",
             "password":"`+password+`"
             }`
-        fetch("http://127.0.0.1:8000/twitter/login/",{
+        fetch("http://kollarevanth.pythonanywhere.com/twitter/login/",{
         method: 'post',
         body: requestbody,
         headers : {'Content-type': "application/json"},
