@@ -238,7 +238,7 @@ render()
                             <td>likes</td>
                             <td> </td><br/>
                             <td><button class="more" id={'l'+item.id} onClick={()=>this.likeFunction(item.id)} >Like</button></td>
-                        <td><button class="more" onClick={() => this.clickFunction(item.id)}>Viewcomments</button></td>
+                        <td><button class="more" onClick={() => this.clickFunction(item.id)}>Viewcomment</button></td>
                         <td><button class="more" onClick={() => this.shareFunction(item.post.substr(48))}>share</button></td>
 
                             <td><button class="more"><Link to={"/addcomments/"+item.id+'/'+this.props.match.params.tokens}>addComment</Link></button></td><br/>

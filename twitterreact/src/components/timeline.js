@@ -179,7 +179,7 @@ render()
            var x=( <React.Fragment>
                 <p align="right"><button class="more" onClick={()=>this.logout()}>LOGOUT</button></p>
                 {this.state.pic.map(item => (
-                <img class="profileimage" src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')}/>))
+                <img class="profileimage" src={"/static/bundles"+"/"+item.pic.split("/").slice(10,).join('/')}/>))
                 }
                 <br/><br/><br/><br/>
                 <button class="more"><Link to={"/addProfilePic/"+this.props.match.params.tokens}>changeProfilePic</Link></button>
@@ -188,7 +188,7 @@ render()
   {this.state.posts.map(item => (
                        <div class="postinfo" align="center">
                          {item.name+":posted in this timeline"}
-                            <td ><img class="postinfo" src={"/static/bundles"+"/"+item.post.split("/").slice(10,).join('/')} height="502" width="502"/></td><br/>
+                            <td ><img class="postinfo" src={"/static/bundles"+"/"+item.pic.split("/").slice(10,).join('/')} height="502" width="502"/></td><br/>
                               <td><div id={'li'+item.id}>{item.likes}</div></td>
                             <td>likes</td>
                             <td> </td><br/>
