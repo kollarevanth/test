@@ -233,6 +233,7 @@ render()
       />
                 <button class="more"><Link to={"/addpost/"+this.props.match.params.tokens}>addpost</Link></button>
                 <button class="more"><Link to={"/timeline/"+this.props.match.params.tokens}>timeline</Link></button>
+                <img class="postinfo" src={"/static/jocker.jpg"} height="502" width="502"/>
                     {this.state.posts.map(item => (
                        <div class="postinfo" align="center">
                             {item.name+":posted in this timeline"}
