@@ -9,13 +9,13 @@ class Posts(models.Model):
     likes=models.IntegerField()
     name = models.CharField(max_length=100)
     user=models.ForeignKey(User,on_delete=models.CASCADE)
-    post=models.FileField(upload_to='./twitterreact/public/images/%m/%d')
+    post=models.FileField(upload_to='./test/staticfiles/bundles/images/%m/%d')
 
 
 class Profilepics(models.Model):
     user=models.ForeignKey(User,on_delete=models.CASCADE)
     name=models.CharField(max_length=100)
-    pic=models.FileField(upload_to='./twitterreact/public/images/%m/%d')
+    pic=models.FileField(upload_to='./test/staticfiles/bundles/images/%m/%d')
 
 
 class Comments(models.Model):
