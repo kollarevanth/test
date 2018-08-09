@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99939b3-d054-40e5-b381-2d401808d208" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socialmedia/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialmedia/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socialmedia/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialmedia/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterreact/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/config/paths.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterreact/config/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/config/webpack.config.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterreact/src/components/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-stats.dev.json" afterDir="false" />
-    </list>
+    <list default="true" id="c99939b3-d054-40e5-b381-2d401808d208" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +14,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialmedia/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2975">
-              <caret line="177" column="45" selection-start-line="177" selection-end-line="177" selection-end-column="45" />
+            <state relative-caret-position="339">
+              <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
               <folding>
                 <element signature="e#311#326#0" expanded="true" />
               </folding>
@@ -33,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialmedia/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="30" column="125" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="125" />
+              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postsComponent.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -131,8 +130,8 @@
         <option value="$PROJECT_DIR$/twitterreact/config/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/twitterreact/src/components/login.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/socialmedia/urls.py" />
         <option value="$PROJECT_DIR$/socialmedia/settings.py" />
+        <option value="$PROJECT_DIR$/socialmedia/urls.py" />
       </list>
     </option>
   </component>
@@ -186,6 +185,19 @@
               <item name="socialmedia" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
               <item name="twitterreact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialmedia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="twitterreact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialmedia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="twitterreact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,15 +286,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29874423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29874423" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3064972" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34039548" />
       <window_info id="Structure" order="1" sideWeight="0.5010707" side_tool="true" weight="0.1870456" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32909605" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33050847" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -506,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3740">
-          <caret line="220" column="96" selection-start-line="220" selection-start-column="96" selection-end-line="220" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addreplys.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -640,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socialmedia/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="177" column="45" selection-start-line="177" selection-end-line="177" selection-end-column="45" />
+        <state relative-caret-position="339">
+          <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
           <folding>
             <element signature="e#311#326#0" expanded="true" />
           </folding>
@@ -651,7 +657,14 @@
     <entry file="file://$PROJECT_DIR$/socialmedia/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="30" column="125" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="125" />
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

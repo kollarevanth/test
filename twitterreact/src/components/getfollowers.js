@@ -17,7 +17,7 @@ componentWillMount()
 {
 
 
-fetch('http://127.0.0.1:8000/twitter/getFollowers',
+fetch('http://kollarevanth.pythonanywhere.com/twitter/getFollowers',
    {
         headers:{
         'Authorization': `Basic ${this.props.match.params.tokens}`

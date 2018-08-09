@@ -40,7 +40,7 @@ var fileField = document.querySelector("input[type='file']");
 formData.append("pic", fileField.files[0]);
 var z=formData.entries()
 z=z.next()
-  fetch('http://127.0.0.1:8000/twitter/addprofilepic', {
+  fetch('http://kollarevanth.pythonanywhere.com/twitter/addprofilepic', {
     method: 'POST',
     headers: {
     'Authorization': `Basic ${this.props.match.params.tokens}`

@@ -12,8 +12,8 @@ class addcomments extends Component
     }
     componentWillMount()
     {
-    console.log('http://127.0.0.1:8000/twitter/getPost/'+this.props.match.params.postid)
-    fetch('http://127.0.0.1:8000/twitter/getPost/'+this.props.match.params.postid,
+    console.log('http://kollarevanth.pythonanywhere.com/twitter/getPost/'+this.props.match.params.postid)
+    fetch('http://kollarevanth.pythonanywhere.com/twitter/getPost/'+this.props.match.params.postid,
        {
         headers:{
         'Authorization': `Basic ${this.props.match.params.tokens}`
@@ -40,7 +40,7 @@ class addcomments extends Component
     Submit=(event)=>
     {
     console.log(this.state.comments)
-    fetch('http://127.0.0.1:8000/twitter/addcomment/'+this.props.match.params.postid,{
+    fetch('http://kollarevanth.pythonanywhere.com/twitter/addcomment/'+this.props.match.params.postid,{
     method:'POST',
     headers: { 'Content-Type': 'application/json' ,'Authorization': `Basic ${this.props.match.params.tokens}`},
     body:JSON.stringify({comment:this.state.comments})

@@ -19,7 +19,7 @@ componentWillMount()
 {
 
 
-fetch('http://127.0.0.1:8000/twitter/specificuserposts/'+this.props.match.params.uid,
+fetch('http://kollarevanth.pythonanywhere.com/twitter/specificuserposts/'+this.props.match.params.uid,
    {
         headers:{
         'Authorization': `Basic ${this.props.match.params.tokens}`
@@ -33,7 +33,7 @@ this.setState({posts:responseJson})
 }
 )
 
-fetch('http://127.0.0.1:8000/twitter/getdp/'+this.props.match.params.uid,
+fetch('http://kollarevanth.pythonanywhere.com/twitter/getdp/'+this.props.match.params.uid,
    {
         headers:{
         'Authorization': `Basic ${this.props.match.params.tokens}`
@@ -52,7 +52,7 @@ this.setState({pic:responseJson})
 
 getReply=(id)=>
 {
-var url='http://127.0.0.1:8000/twitter/replys/'+id.slice(1,)
+var url='http://kollarevanth.pythonanywhere.com/twitter/replys/'+id.slice(1,)
 console.log(url)
 if(id[0]!='r')
     return
@@ -88,7 +88,7 @@ this.state.replys= (
 
 getComments(id)
 {
-var url='http://127.0.0.1:8000/twitter/comments/'+id.toString()
+var url='http://kollarevanth.pythonanywhere.com/twitter/comments/'+id.toString()
 var x=async()=>{await fetch(url).
 then(response=>response.json()).then(responseJson=>{
 this.setState({comments:responseJson});
@@ -154,7 +154,7 @@ addFollowing=()=>
 {
 
 
-fetch('http://127.0.0.1:8000/twitter/getFollowing',{
+fetch('http://kollarevanth.pythonanywhere.com/twitter/getFollowing',{
  headers: {'Authorization': `Basic ${this.props.match.params.tokens}`}}).then(response=>response.json()).then(responseJson=>{
 var i;
 var x=parseInt(this.props.match.params.uid)
@@ -167,7 +167,7 @@ this.setState({flag:1})
 }
 if(this.state.flag==0)
 {
-fetch('http://127.0.0.1:8000/twitter/addfollowing',{
+fetch('http://kollarevanth.pythonanywhere.com/twitter/addfollowing',{
     method:'POST',
     headers: { 'Content-Type': 'application/json' ,'Authorization': `Basic ${this.props.match.params.tokens}`},
     body:JSON.stringify({following_id:this.props.match.params.uid})
@@ -185,7 +185,7 @@ window.alert("You are have been following")
 likeFunction=(id,e)=>{
 if(document.getElementById('l'+id.toString()).innerHTML=='Like')
 {
-fetch('http://127.0.0.1:8000/twitter/likepost/'+id.toString(),{
+fetch('http://kollarevanth.pythonanywhere.com/twitter/likepost/'+id.toString(),{
 method:'PUT',
 headers:{'Authorization':`Basic ${this.props.match.params.tokens}`}
 }
@@ -196,7 +196,7 @@ document.getElementById('l'+id.toString()).innerHTML='UNLIKE'
 }
 else
 {
-fetch('http://127.0.0.1:8000/twitter/unlikepost/'+id.toString(),{
+fetch('http://kollarevanth.pythonanywhere.com/twitter/unlikepost/'+id.toString(),{
 method:'PUT',
 headers:{'Authorization':`Basic ${this.props.match.params.tokens}`}
 }

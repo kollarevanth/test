@@ -16,13 +16,13 @@ class addreply extends Component
 
     componentWillMount()
     {
-    console.log('http://127.0.0.1:8000/twitter/getPost/'+this.props.match.params.postid)
-    fetch('http://127.0.0.1:8000/twitter/getPost/'+this.props.match.params.postid).then(response=>response.json())
+    console.log('http://kollarevanth.pythonanywhere.com/twitter/getPost/'+this.props.match.params.postid)
+    fetch('http://kollarevanth.pythonanywhere.com/twitter/getPost/'+this.props.match.params.postid).then(response=>response.json())
     .then(responseJson=>{
     this.setState({post:responseJson})
     })
-    console.log('http://127.0.0.1:8000/twitter/getcomment/'+this.props.match.params.commentid)
-    fetch('http://127.0.0.1:8000/twitter/getcomment/'+this.props.match.params.commentid).then(response=>response.json())
+    console.log('http://kollarevanth.pythonanywhere.com/twitter/getcomment/'+this.props.match.params.commentid)
+    fetch('http://kollarevanth.pythonanywhere.com/twitter/getcomment/'+this.props.match.params.commentid).then(response=>response.json())
     .then(responseJson=>{
     this.setState({comments:responseJson})
     })
@@ -42,7 +42,7 @@ class addreply extends Component
     Submit=(event)=>
     {
     console.log(this.state.comments)
-    fetch('http://127.0.0.1:8000/twitter/addreply/'+this.props.match.params.commentid,{
+    fetch('http://kollarevanth.pythonanywhere.com/twitter/addreply/'+this.props.match.params.commentid,{
     method:'POST',
     headers: { 'Content-Type': 'application/json' ,'Authorization': `Basic ${this.props.match.params.tokens}`},
     body:JSON.stringify({reply:this.state.reply})

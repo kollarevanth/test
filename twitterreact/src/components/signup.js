@@ -34,7 +34,7 @@ import {Redirect} from 'react-router-dom'
             "password":"`+password+`",
             "email":"`+email+`"
             }`
-        fetch("http://localhost:8000/twitter/signupview/",
+        fetch("http://kollarevanth.pythonanywhere.com/twitter/signupview/",
         {
         method:'post',
         mode:'no-cors',

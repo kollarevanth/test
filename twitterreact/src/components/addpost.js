@@ -41,7 +41,7 @@ formData.append("Post", fileField.files[0]);
 formData.append("Likes",1000)
 var z=formData.entries()
 z=z.next()
-  fetch('http://127.0.0.1:8000/twitter/addpost', {
+  fetch('http://kollarevanth.pythonanywhere.com/twitter/addpost', {
     method: 'POST',
     headers: {
     'Authorization': `Basic ${this.props.match.params.tokens}`
