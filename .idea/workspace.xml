@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99939b3-d054-40e5-b381-2d401808d208" name="Default" comment="" />
+    <list default="true" id="c99939b3-d054-40e5-b381-2d401808d208" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitterreact/src/components/postsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/postsComponent.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +14,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socialmedia/settings.py">
+      <file leaf-file-name="addpost.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addpost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
-              <folding>
-                <element signature="e#311#326#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="731">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socialmedia/urls.py">
+      <file leaf-file-name="addprofilepic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addprofilepic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+            <state relative-caret-position="-213">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addreplys.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addreplys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-924">
+              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autosuggestion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/autosuggestion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-638">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getfollowers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-754">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getfollowing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-771">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getUserDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-856">
+              <caret line="198" column="45" selection-start-line="198" selection-start-column="45" selection-end-line="198" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/signup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timeline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterreact/src/components/timeline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-788">
+              <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -35,17 +98,8 @@
       <file leaf-file-name="postsComponent.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitterreact/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="238" column="111" selection-start-line="238" selection-start-column="111" selection-end-line="238" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -83,6 +137,8 @@
       <find>scripts</find>
       <find>fcntl</find>
       <find>http://127.0.0.1:8000/</find>
+      <find>http://localhost:8000</find>
+      <find>http://127.0.0.1:8000</find>
     </findStrings>
     <replaceStrings>
       <replace>authentication_classes = (BasicAuthentication)</replace>
@@ -90,6 +146,7 @@
       <replace>&lt;button class=&quot;more&quot;</replace>
       <replace>&lt;/Link&gt;&lt;/button&gt;</replace>
       <replace>http://kollarevanth.pythonanywhere.com/</replace>
+      <replace>http://kollarevanth.pythonanywhere.com</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -103,23 +160,12 @@
         <option value="$PROJECT_DIR$/webpack-stats.dev.json" />
         <option value="$PROJECT_DIR$/templates/addpost.html" />
         <option value="$PROJECT_DIR$/twitterreact/src/components/getfollowing.py" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/autosuggestion.js" />
         <option value="$PROJECT_DIR$/twitterreact/src/App.js" />
         <option value="$PROJECT_DIR$/twitter/urls.py" />
         <option value="$PROJECT_DIR$/twitter/serializersStuff/serializers.py" />
         <option value="$PROJECT_DIR$/twitter/models.py" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/addprofilepic.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/addpost.js" />
         <option value="$PROJECT_DIR$/twitter/serializersStuff/serializer_operations.py" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/timeline.js" />
         <option value="$PROJECT_DIR$/twitterreact/src/components/reqcss.css" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/signup.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/getfollowing.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/getfollowers.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/addreplys.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/addcomments.js" />
-        <option value="$PROJECT_DIR$/twitterreact/src/components/postsComponent.js" />
         <option value="$PROJECT_DIR$/twitterreact/server.js" />
         <option value="$PROJECT_DIR$/twitterreact/package.json" />
         <option value="C:/Python36-32/Lib/site-packages/gunicorn/util.py" />
@@ -132,6 +178,17 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/socialmedia/settings.py" />
         <option value="$PROJECT_DIR$/socialmedia/urls.py" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/addcomments.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/addpost.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/addprofilepic.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/addreplys.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/autosuggestion.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/getfollowers.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/getfollowing.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/signup.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/timeline.js" />
+        <option value="$PROJECT_DIR$/twitterreact/src/components/postsComponent.js" />
       </list>
     </option>
   </component>
@@ -288,7 +345,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.29874423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.0925314" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
@@ -439,20 +496,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowing.py" />
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/autosuggestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addprofilepic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitter/serializersStuff/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -477,52 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="194" column="126" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="224" column="119" lean-forward="true" selection-start-line="221" selection-start-column="11" selection-end-line="224" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="50" column="119" selection-start-line="50" selection-start-column="119" selection-end-line="50" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addpost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/reqcss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addreplys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="98" selection-start-line="62" selection-start-column="98" selection-end-line="62" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -532,13 +533,6 @@
     <entry file="file://$PROJECT_DIR$/twitterreact/server.js" />
     <entry file="file://$PROJECT_DIR$/twitterreact/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://C:/Python36-32/Lib/site-packages/gunicorn/util.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addcomments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-251">
@@ -603,13 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -661,10 +641,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addcomments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addpost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addprofilepic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/addreplys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/autosuggestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-771">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-856">
+          <caret line="198" column="45" selection-start-line="198" selection-start-column="45" selection-end-line="198" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterreact/src/components/timeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="238" column="111" selection-start-line="238" selection-start-column="111" selection-end-line="238" selection-end-column="111" />
         </state>
       </provider>
     </entry>
