@@ -236,7 +236,7 @@ render()
                     {this.state.posts.map(item => (
                        <div class="postinfo" align="center">
                             {item.name+":posted in this timeline"}
-                            <td ><img class="postinfo" src={"/home/kollarevanth/twitterreact"+"/"+item.post.split("/").slice(4,).join('/')} height="502" width="502"/></td><br/>
+                            <td ><img class="postinfo" src={"/static/bundles"+"/"+item.post.split("/").slice(6,).join('/')} height="502" width="502"/></td><br/>
                             <td><div id={'li'+item.id}>{item.likes}</div></td>
                             <td>likes</td>
                             <td> </td><br/>
