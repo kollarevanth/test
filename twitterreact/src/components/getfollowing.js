@@ -58,7 +58,7 @@ render()
                         <tr key={item.id}>
                             <td align="centre"><img src={'/static/bundlesc'+"/"+item.pic.split("/").slice(10,).join('/')} height="80" width="80"/></td>
                             <td>{item.name}</td>
-                            <td><button onClick={()=>this.showProfile(item.id)}>ShowProfile</button></td>
+                            <td><button onClick={()=>this.showProfile(item.user_id)}>ShowProfile</button></td>
                          </tr>
                         </div>
 

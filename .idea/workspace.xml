@@ -3,23 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c99939b3-d054-40e5-b381-2d401808d208" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/js/main.0fa5d2f0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/js/main.0fa5d2f0.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bundles/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/bundles/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bundles/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/bundles/asset-manifest.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bundles/asset-manifest.json.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/bundles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bundles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/bundles/index.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bundles/index.html.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/bundles/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bundles/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/bundles/service-worker.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bundles/service-worker.js.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitterreact/src/components/getfollowers.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/getfollowers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitterreact/src/components/getfollowing.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/getfollowing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterreact/src/components/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitterreact/src/components/timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-stats.prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-stats.prod.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +19,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="272">
               <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
             </state>
           </provider>
@@ -42,7 +28,7 @@
       <file leaf-file-name="postsComponent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="4182">
               <caret line="246" selection-start-line="246" selection-end-line="246" />
             </state>
           </provider>
@@ -51,7 +37,7 @@
       <file leaf-file-name="timeline.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/timeline.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="3077">
               <caret line="181" column="64" selection-start-line="181" selection-start-column="64" selection-end-line="181" selection-end-column="64" />
             </state>
           </provider>
@@ -60,7 +46,7 @@
       <file leaf-file-name="getUserDetails.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="3859">
               <caret line="227" column="64" selection-start-line="227" selection-start-column="64" selection-end-line="227" selection-end-column="64" />
             </state>
           </provider>
@@ -69,8 +55,8 @@
       <file leaf-file-name="getfollowers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
+            <state relative-caret-position="214">
+              <caret line="59" column="69" lean-forward="true" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -78,8 +64,17 @@
       <file leaf-file-name="getfollowing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="58" column="108" selection-start-line="58" selection-start-column="108" selection-end-line="58" selection-end-column="108" />
+            <state relative-caret-position="248">
+              <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -185,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +219,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,14 +305,14 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.050892267" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.23859881" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3064972" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34039548" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34039548" />
       <window_info id="Structure" order="1" sideWeight="0.5010707" side_tool="true" weight="0.1870456" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21186441" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21186441" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33050847" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-251">
@@ -641,43 +629,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/postsComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="4182">
           <caret line="246" selection-start-line="246" selection-end-line="246" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/timeline.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="3077">
           <caret line="181" column="64" selection-start-line="181" selection-start-column="64" selection-end-line="181" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getUserDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="3859">
           <caret line="227" column="64" selection-start-line="227" selection-start-column="64" selection-end-line="227" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="272">
           <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
+        <state relative-caret-position="214">
+          <caret line="59" column="69" lean-forward="true" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterreact/src/components/getfollowing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="58" column="108" selection-start-line="58" selection-start-column="108" selection-end-line="58" selection-end-column="108" />
+        <state relative-caret-position="248">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
         </state>
       </provider>
     </entry>
